@@ -11,25 +11,27 @@
     color: #000000;
     }
 
-.site-nav{
+  .site-nav{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+  }
 
+site-nav:hover{
+    color:#2196F3
 }
-
-.header-adress{
-    
-}
-
 
 .page-footer{
     background:#2F303A
 }
 
-
-
-
-
-
-
+span{
+    color: #2196F3;
+}
 
 .logo-footer{
     font-family: 'Raleway';
@@ -40,11 +42,3 @@
     color: #ffffff;
 }
 
-.blue-logo{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    color: #2196F3
-}    
