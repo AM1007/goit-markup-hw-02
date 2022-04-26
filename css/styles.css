@@ -21,7 +21,8 @@
     color: #212121;
   }
 
-site-nav:hover{
+.site-nav:hover,
+.site-nav:active{
     color:#2196F3
 }
 
