@@ -1,44 +1,64 @@
+
 body{
   font-size: 14px;
-  font-family: ;    
+  font-family: 'Roboto';
+  color: #212121;
+  background-color: #E5E5E5;    
 }
-.logo-header{
+.logo{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     text-decoration: none;
-    color-scheme: #2196F3;
+    color: #2196F3;
 }
 
-.header{
+.logo-header{
+  color: #212121;
+}
 
+.section{
+  background-color: #2F303A;
+  color: #fff; 
 }
 
 .btn{
+color: #fff;
 
 }
 
-.navigation{
+.link{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  list-style-type: none;
 
+  }
+
+.link:hoover, .link:focus{
+  color: #2196F3;
 }
 
-.list{
 
-}
 
 .item{
+ color: brown;
+}
 
+
+
+
+p{
+color: #757575;
+}
+
+.footer{
+  background-color: #2F303A;
 }
 
 .logo-footer{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    text-decoration: none;
-    color-scheme: #2196F3;
+  color: #fff
 }
-
