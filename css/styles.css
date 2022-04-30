@@ -3,8 +3,11 @@ body{
   font-size: 14px;
   font-family: 'Roboto';
   color: #212121;
-  background-color: #E5E5E5;    
+  background-color: #E5E5E5; 
+  
+  line-height: 14px;
 }
+
 .logo{
     font-family: 'Raleway';
     font-style: normal;
@@ -21,13 +24,30 @@ body{
 
 .section{
   background-color: #2F303A;
-  color: #fff; 
+  color: #fff;
+  text-align: center;
 }
 
 .btn{
 color: #fff;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+.h3{
+  list-style-type: none;
+  text-align: center;
 
 }
+
+
+
 
 .link{
   font-family: 'Roboto';
@@ -37,6 +57,7 @@ color: #fff;
   list-style-type: none;
 
   }
+
 
 .link:hoover, .link:focus{
   color: #2196F3;
@@ -62,3 +83,13 @@ color: #757575;
 .logo-footer{
   color: #fff
 }
+
+.footer-adress{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  list-style-type: none;
+
+  }
+
