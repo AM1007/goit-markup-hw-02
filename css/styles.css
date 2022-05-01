@@ -1,20 +1,18 @@
-
 body{
   font-family: 'Roboto';
+  font-weight: 500;
   font-size: 14px;
-  line-height: 14px;
+  line-height: 1;
     
   color: #212121;
   background: #FFFFFF;
-
 }
-
 
 .logo{
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
 
   text-decoration: none;
 
@@ -26,9 +24,8 @@ body{
 }
 
 .header-link{
-  font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.15;
   letter-spacing: 0.02em;
 
   color: #757575;
@@ -37,48 +34,59 @@ body{
   text-decoration: none;
 }
 
+.header-link:hover,:focus{
+  color: #2196F3;
+}
+
 .page-link{
-  font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.15;
   letter-spacing: 0.02em;
+  color: #212121;
 
   list-style-type: none;
   text-decoration: none;
 }
 
+.page-link:hover,:focus{
+  color: #2196F3;
+} 
+
 .section-one{
   background-color: #2F303A;
- }
+}
 
 .btn{
-  font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.65;
   letter-spacing: 0.03em;
+
   list-style-type: none;
   text-decoration: none;
+}
+
+.btn:hover,:focus{
+  color: #2196F3;
 }
 
 .order-btn{
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
-  
-  color: #FFFFFF;
-
-  display: flex;
-  align-items: center;
-  text-align: center;
+  line-height: 1.9;
   letter-spacing: 0.06em;
 
+  color: #FFFFFF;
+  background-color: #2196F3;
+
+  align-items: center;
+  text-align: center;
+  
   width: 200px;
   height: 50px;
   left: 700px;
   top: 430px;
-  
-  background-color: #2196F3;
 
+  border-radius: 4px;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -89,20 +97,21 @@ body{
 }
 
 .h1{
-  font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.4;
+  font-weight: 900;
   letter-spacing: 0.06em;
 
   text-align: center;
   text-transform: uppercase;
 
   color: #fff;
+  background-color: #2F303A;
 }
 
 .h2{
   font-weight: 700;
-  font-size: 36px;
+  font-size: 1.2;
   line-height: 42px;
   letter-spacing: 0.03em;
 
@@ -118,7 +127,7 @@ body{
 .project{
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
@@ -129,7 +138,7 @@ body{
 .feature {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.15;
 
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -138,29 +147,23 @@ body{
 }
 
 .name{
-  font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
 
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 .link{
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
   list-style-type: none;
   text-decoration: none;
-  }
+}
 
 
 .p-index{
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 
   color: #757575;
@@ -169,7 +172,7 @@ body{
 .p-portfolio{
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.85;
   letter-spacing: 0.03em;
 
   color: #757575;
@@ -178,7 +181,7 @@ body{
 .position{
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 
   text-align: center;
@@ -197,7 +200,7 @@ body{
 .adress{
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
  
   font-style: normal;
@@ -210,7 +213,7 @@ body{
 .link-adress{
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 }
 
@@ -218,12 +221,15 @@ body{
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
 
   list-style-type: none;
   text-decoration: none;
-  }
+}
 
+.footer-link:hover, :focus{
+   color: #2196F3;   
+}
