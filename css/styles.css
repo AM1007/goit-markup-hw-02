@@ -155,6 +155,7 @@ body{
 }
 
 .link{
+  color: #212121;
   list-style-type: none;
   text-decoration: none;
 }
