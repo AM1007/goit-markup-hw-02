@@ -3,10 +3,12 @@ body{
   font-weight: 500;
   font-size: 14px;
   line-height: 1;
-    
+  
   color: #212121;
   background: #FFFFFF;
 }
+
+.header-section{background-color: antiquewhite;}
 
 .logo{
   font-family: 'Raleway';
@@ -23,38 +25,58 @@ body{
   color: #212121;
 }
 
-.header-link{
+.header-contacts-list{
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
-
-  color: #757575;
 
   list-style-type: none;
   text-decoration: none;
-}
 
-.header-link:hover,:focus{
-  color: #2196F3;
-}
-
-.page-link{
-  font-size: 14px;
-  line-height: 1.15;
-  letter-spacing: 0.02em;
   color: #212121;
-
-  list-style-type: none;
-  text-decoration: none;
 }
 
-.page-link:hover,:focus{
+.pages-link{
+  text-decoration: none;
+ 
+  color: #212121;
+}
+
+.pages-link:hover,
+.pages-link:focus{
   color: #2196F3;
 } 
 
-.section-one{
+.header-link{
+  text-decoration: none;
+  
+  color: #757575;
+  
+}
+
+.header-link:hover,
+.header-link:focus{
+
+  color: #2196F3;
+}
+
+.hero-section{
   background-color: #2F303A;
 }
+
+.hero-tagline{
+  font-size: 44px;
+  line-height: 1.4;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #fff;
+  background-color: #2F303A;
+}
+
 
 .btn{
   font-size: 16px;
@@ -92,24 +114,41 @@ body{
   justify-content: center;
 }
 
-.section-two{
+.features-section{
+  background-color: bisque;
+  
+}
+
+.features-list{
+  list-style-type: none;
+}
+
+.features-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  
+  text-decoration: none;
+  text-transform: uppercase;
+  
+}
+
+.page-text{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+
+.our-team-section{
   background-color: #F5F4FA;
 }
 
-.h1{
-  font-size: 44px;
-  line-height: 1.4;
-  font-weight: 900;
-  letter-spacing: 0.06em;
-
-  text-align: center;
-  text-transform: uppercase;
-
-  color: #fff;
-  background-color: #2F303A;
-}
-
-.h2{
+.what-we-do-title{
   font-weight: 700;
   font-size: 1.2;
   line-height: 42px;
@@ -118,11 +157,10 @@ body{
   text-align: center;
 }
 
-.h3{
+.what-we-do-list{
   list-style-type: none;
-  text-decoration: none;
-  text-align: center;
 }
+
 
 .project{
   font-weight: 700;
@@ -131,20 +169,9 @@ body{
   letter-spacing: 0.06em;
 }
 
-.hide-dots{
-  list-style-type: none;
-}
 
-.feature {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.15;
 
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  list-style-type: none;
-  text-decoration: none;
-}
+
 
 .name{
   font-size: 16px;
@@ -161,14 +188,7 @@ body{
 }
 
 
-.p-index{
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
 
-  color: #757575;
-}
 
 .p-portfolio{
   font-weight: 400;
