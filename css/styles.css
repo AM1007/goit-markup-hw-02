@@ -3,15 +3,26 @@ body{
   font-size: 14px;
   letter-spacing: 0.02em;
   
-  color: #212121;
-  background: #FFFFFF;
+  color: #757575;
+  background-color: #FFFFFF;
+  
 }
+
+/*  Чорний текст #000000 (лого)
+    Чорний текст #212121 (імейли, підзаголовки, заголовки)
+    Чорний #2F303A (заливка підвал)
+    Блакитний  #2196F3 (хувер, фокус) - акцент
+    Сірий #757575 (контакти, абзаци)
+    Сірий #2F303A (заливка героя)
+    Блідий #F5F4FA (заливка нашої команди, колір кнопок)
+    Білий #FFFFFF (заливка шапки)
+    Сірий прозрачний rgba(255, 255, 255, 0.6) (ссилки підвалу)
+     /
 
 /* index.html page */
 
-.header{
-  /* background-color:gold; */
-
+.list{
+  list-style: none;
 }
 
 .logo{
@@ -35,9 +46,7 @@ body{
   line-height: 1.15;
   letter-spacing: 0.02em;
   
-  list-style-type: none;
   text-decoration: none;
-
 }
 
 .header-pages-link{
@@ -48,15 +57,13 @@ body{
 
 .header-link{
   text-decoration: none;
-  
-  color: #757575;
 }
 
 .hero-section{
   background-color: #2F303A;
 }
 
-.hero-tagline{
+.hero-slogan{
   font-size: 44px;
   line-height: 1.4;
   font-weight: 900;
@@ -69,49 +76,16 @@ body{
   background-color: #2F303A;
 }
 
-.btn{
-  font-size: 16px;
-  line-height: 1.65;
-  letter-spacing: 0.03em;
-
-  list-style-type: none;
-  text-decoration: none;
-}
-
-.btn:hover,
-.btn:focus{
-  color: #2196F3;
-}
-
 .order-btn{
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
+  cursor: pointer;
 
   color: #FFFFFF;
   background-color: #2196F3;
 
-  align-items: center;
-  text-align: center;
-  
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-
-  border-radius: 4px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-}
-
-.features-section{
-  background-color: bisque;
-}
-
-.features-list{
-  list-style-type: none;
 }
 
 .features-subtitle {
@@ -129,8 +103,6 @@ body{
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-
-  color: #757575;
 }
 
 .section-title{
@@ -142,17 +114,12 @@ body{
   text-align: center;
 }
 
-.what-we-do-list{
-  list-style-type: none;
-}
-
 .our-team-section{
   background-color: #F5F4FA;
 }
 
 .our-team-list{
-  list-style-type: none;
-  text-align: center;
+    text-align: center;
 }
 
 .our-team-name{
@@ -169,8 +136,6 @@ body{
   letter-spacing: 0.03em;
 
   text-align: center;
-
-  color: #757575;
 }
 
 .footer{
@@ -182,9 +147,7 @@ body{
 }
 
 .footer-list{
-  font-style: normal;
-  list-style-type: none;
-  
+  font-style: normal; 
 }
 
 .adress{
@@ -216,17 +179,33 @@ body{
 
 /* portfolio.html page */
 
-.our-work-filter{
-  background-color: darkkhaki;
+.filter-btn-list{
+    text-decoration: none;
+    color: #212121;
 }
 
-.our-work-filter-list {
-  #
+.filter-btn{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  text-align: center;
+  background-color: #F5F4FA;
+}
+
+.filter-btn:hover,
+.filter-btn:focus{
+  background-color: #2196F3; 
+  color: #FFFFFF; 
+} 
+
+.our-work-filter{
 }
 
 .our-work-list{
-  list-style-type: none;
-  text-align: center;
+   text-align: center;
 }
 
 .our-work-customer{
@@ -241,6 +220,4 @@ body{
   font-size: 16px;
   line-height: 1.85;
   letter-spacing: 0.03em;
-
-  color: #757575;
 }
