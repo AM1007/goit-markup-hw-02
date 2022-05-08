@@ -54,6 +54,11 @@ body{
   color: var(--title-text-color);
 }
 
+.header-active-page{
+  color: var(--accent-color);
+}
+
+
 .header-link{
   text-decoration: none;
   color: var(--primary-text-color);
@@ -79,6 +84,7 @@ body{
 }
 
 .order-btn{
+  font-family: 'Roboto', 'Sans-Serif';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -193,6 +199,7 @@ body{
 }
 
 .filter-btn{
+  font-family: 'Roboto', 'Sans-Serif';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -206,6 +213,7 @@ body{
 }
 
 .sum-filter-btn{
+  font-family: 'Roboto', 'Sans-Serif';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -227,7 +235,7 @@ body{
 } 
 
 .our-work{
-  text-align: center;
+  #
 }
 
 .our-work-customer{
